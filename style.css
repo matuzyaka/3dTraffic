@@ -1,0 +1,108 @@
+
+
+#logoiMG{
+    width: 144.6px;
+    height: 44px;
+    border: 0px solid transparent;
+    border-radius: 10px;
+}
+#logo{
+    padding: 0px;
+}
+
+
+.nav{
+    color: white;
+    background-color: #0fa8ef;
+    border: 0px solid transparent;
+    border-radius: 10px;
+    position: fixed;
+    width: 95%;
+    margin-left: 2.5%;
+    top: 0px;
+    z-index: 999;
+}
+
+.nav-item {
+    font-size: larger;
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    color: blanchedalmond;
+}
+  
+.nav-item:after {
+      position: absolute;
+      content: "";
+      height: 4px;
+      left: 20%;
+      margin-top: 28px;
+      width: 0%;
+      background-color: #f26c4f;
+      transition: width .3s ease-in-out;
+}
+.nav-item:hover:after,
+.nav-item:focus:after {
+      width: 60%;
+}
+.main{
+    display: flex;
+    margin-top: 25px;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.sidebar {
+    margin-left: 2.5%;
+    margin-top: 50px;
+    width: 20vw;
+    }
+
+.btn-primary {
+    background-color: #0fa8ef;
+}
+
+.mainContent {
+    display: flex;
+    margin-top: 25px;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+}
+
+.mc1, .mc2, .mc3 {
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 30px;
+    height: 400px;
+    border: solid 1px rgb(17, 225, 240);
+    border-radius: 10px;
+    display: flex;
+        justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+}
+
+.mcImage {
+    width: 35vw;
+    padding: 5px;
+}
+
+.mcP {
+    padding: 5px;
+}
+
+footer {
+    color: white;
+    background-color: #0fa8ef;
+    border: 0px solid transparent;
+    border-radius: 10px;
+    width: 95%;
+    margin-left: 2.5%;
+    margin-top: 30px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
